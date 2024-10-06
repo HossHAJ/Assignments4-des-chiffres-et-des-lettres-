@@ -1,19 +1,6 @@
 # Assignments4-des-chiffres-et-des-lettres-
 
-# Letters round
-The player is given a set of letters one by one. At each step, the player is asked whether
-a vowel or a consonant should be provided and the computer generates a random letter
-corresponding to the player’s choice.
-The player will, then, have to use these letters to create the longest valid word. The
-player must provide his word within a limited amount of time. But this time constraint
-is waived in this assignment.
-# Numbers round
-Players are given a set of six numbers, typically consisting of small numbers (1-10) and
-large numbers from the list (25, 50, 75, 100).
-A three-digit target number is randomly generated. Players must use any combination of
-1
-the random numbers and basic mathematical operations (+, -, *, //) to reach the target
-number. The closest guess to the target number using valid operations wins.
+
 
 # PROGRAMS EXPLANATIONS 
 
@@ -37,4 +24,22 @@ The Letters Round is an essential part of the classic intellectual game Des Chif
 - Submit your word: When asked, type in the word you have formed.
 - Scoring: The game calculates your score by comparing your word's length with the longest possible word that could be formed from the given letters.
 
+## Numbers Round - Des Chiffres et Des Lettres
+### Overview
+The Numbers Round is one of the two main rounds of the popular game Des Chiffres et Des Lettres. In this round, players are given a set of numbers and are required to perform basic arithmetic operations to reach or get as close as possible to a randomly generated target number. This version of the game focuses on implementing the Numbers Round, where players are tested on their arithmetic skills and strategy.
+### Rules
+- The program generates six random numbers from two groups:
+- Large numbers: 25, 50, 75, 100
+- Small numbers: Integers between 1 and 10
+- The program generates a random three-digit target number between 100 and 999.
+- The player is required to use the six numbers and basic arithmetic operations (+, -, *, //) to calculate an expression as close as possible to the target number.
+- Each number can only be used once in the expression.
+- The player enters their expression, and the program calculates the result and the difference from the target number.
+- The program also allows for an automatic solution using a brute-force approach to find the best possible solution for the numbers round.
+### How to Play
+- Start the program: The program will display a randomly generated target number and a set of six random numbers.
+- Formulate your expression: Using the six numbers, perform arithmetic operations to get as close as possible to the target number. You can use addition (+), subtraction (-), multiplication (*), and integer division (//).
+- Input your expression: Once you've created your expression, enter it into the program.
+- See your result: The program will evaluate your expression and calculate how close you were to the target.
+- Check the best solution (optional): The program can automatically calculate the closest solution using brute-force methods, showing you the best possible expression.
 
